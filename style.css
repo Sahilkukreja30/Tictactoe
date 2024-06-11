@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #A0CED9;
+}
+.box{
+    width: 70vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vmin;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+    
+}
+.win{
+    margin-top: 200vmin;
+}
+.button{
+    width: 17vmin;
+    height: 17vmin;
+    background-color: #FCF5C7;
+    border-radius: 12px;
+    font-size: 5vmin;
+    color: black;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.heading{
+    text-align: center;
+}
+
+.img{
+    height: 0;
+    margin-top: 5vmin;
+    margin-left: 45vmax;
+}
+
+.reset{
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    width: 50px;
+}
+
+.reset :hover{
+    cursor: pointer;
+    background-color: rgba(214, 209, 209, 0.849);
+}
+
+
+.winmsg{
+    text-align: center;
+    font-size: 8vmin;
+    margin: auto;
+   
+}
+
+.chance{
+    font-size: 5vmin;
+    margin-top: 5vmax;
+    text-align: center;
+}
+
+.newGame{
+    font-size: 22px;
+    margin-left: 48vmax;
+    margin-top: 25vmin;
+    height: 70px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.newGame :hover{
+    cursor: pointer;
+    background-color: rgba(214, 209, 209, 0.849);
+}
+
+.hide{
+    display: none;
+}
